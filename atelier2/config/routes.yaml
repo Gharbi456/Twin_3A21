@@ -1,0 +1,6 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+student:
+    path: /student
+    controller: App\Controller\StudentController::index
